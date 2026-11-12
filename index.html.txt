@@ -1,0 +1,21 @@
+<!DOCTYPE html>    
+<html>              
+    <body>
+        <p id="logical"></p>
+
+
+<script>
+    let age = prompt("Enter your age");
+    age = Number(age);
+
+    if (age >= 18) 
+            { document.getElementById("logical").innerHTML = "Age: " + age + " - Eligible to vote.<br>";
+            } 
+            
+            else {
+                document.getElementById("logical").innerHTML = "Age: " + age + " - Not eligible to vote.<br>";
+            }
+</script>
+    </body>
+    
+</html>
